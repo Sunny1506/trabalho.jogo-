@@ -47,6 +47,16 @@ C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\background.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\duck.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\water.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\shower.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\firefly.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\koala.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\eat.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\setanext.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\setaback.png
+C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\bear.png
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\mauiimage.stamp
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\libraryprojectimports.cache
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\stamp\_BuildLibraryImportsCache.stamp
@@ -1036,5 +1046,3 @@ C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\stamp\_Conv
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\duck.png
-C:\Users\Aluno\trabalho.jogo-\trabalho.jogo\obj\Debug\net8.0-android\resizetizer\r\drawable\bear.png

@@ -2,8 +2,85 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="trabalho.jogo.MainPage"
-             ShellNavBarIsVisble="false">
+             Shell.NavBarIsVisible="false">
 <Grid>
-   <Image=bear.png>
+   <Image Source="background.png"
+          Aspect="AspectFill"/>
+
+   <Image Source="bear.png"
+          Aspect="AspectFill"
+          VerticalOptions="End"/>
+
+   <Frame x:Name="frameFell"
+          BackgroundColor="#f5cbcf"
+          Margin="10,10,10,480"
+          CornerRadius="10">
+   <Grid>
+       <Grid.RowDefinitions>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       </Grid.RowDefinitions>
+       <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="50"/>
+       <ColumnDefinition Width="*"/>
+       </Grid.ColumnDefinitions>
+
+   <Image Source="water.png"
+         Grid.Row="0"
+          Grid.Column="0"/>
+          
+   <Image Source="eat.png"
+         Grid.Row="1"
+          Grid.Column="0"/>
+
+   <Image Source="shower.png"
+         Grid.Row="2"
+          Grid.Column="0"/> 
+
+   <ProgressBar x:Name="Sede"
+                ProgressColor="#2b86fc"
+                Progress="0.5"
+                Grid.Row="0"
+                Grid.Column="1"/>        
+
+   <ProgressBar x:Name="Fome"
+                ProgressColor="#f55fc3"
+                Progress="0.5"
+                Grid.Row="1"
+                Grid.Column="1"/> 
+
+   <ProgressBar x:Name="Banho"
+                ProgressColor="#7026f0"
+                Progress="0.5"
+                Grid.Row="2"
+                Grid.Column="1"/>                                          
+   </Grid>    
+   </Frame>            
+<Frame x:Name="frameactions"
+          BackgroundColor="#8debb7"
+          Padding="0"
+          Margin="0,40,10,0"
+          CornerRadius="10"
+          WidthRequest="60"
+          VerticalOptions="Center"
+          HorizontalOptions="End">
+
+   <Grid>
+       <Grid.RowDefinitions>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       <RowDefinition Height="*"/>
+       </Grid.RowDefinitions>
+
+   <ImageButton Source="setanext.png"
+         Grid.Row="0"/>  
+   <ImageButton Source="setaback.png"
+         Grid.Row="1"/>            
+   </Grid>           
+</Frame>          
+   
 </Grid>
 </ContentPage>
