@@ -3,19 +3,20 @@ namespace trabalho.jogo;
 
 public class personagens 
 {
-  int fome;
+
   int sede;
-  int sono;
+  int fome;
+  int banho;
 
 
 
 public personagens()
 {
-  fome=0;
+   sede=0;
+  
+   fome=0;
 
-  sede=0;
-
-  sono=0;
+   banho=0;
 }
 
 public void SetFome(int f)

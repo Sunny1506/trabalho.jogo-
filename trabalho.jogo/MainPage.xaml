@@ -13,7 +13,7 @@
 
    <Frame x:Name="frameFell"
           BackgroundColor="#f5cbcf"
-          Margin="10,10,10,480"
+          Margin="10,10,10,490"
           CornerRadius="10">
    <Grid>
        <Grid.RowDefinitions>
@@ -58,9 +58,9 @@
    </Grid>    
    </Frame>            
 <Frame x:Name="frameactions"
-          BackgroundColor="#8debb7"
+          BackgroundColor="#55f5588c"
           Padding="0"
-          Margin="0,40,10,0"
+          Margin="0,50,10,0"
           CornerRadius="10"
           WidthRequest="60"
           VerticalOptions="Center"
@@ -68,17 +68,23 @@
 
    <Grid>
        <Grid.RowDefinitions>
-       <RowDefinition Height="*"/>
-       <RowDefinition Height="*"/>
-       <RowDefinition Height="*"/>
-       <RowDefinition Height="*"/>
-       <RowDefinition Height="*"/>
+       <RowDefinition Height="50"/>
+       <RowDefinition Height="50"/>
+       <RowDefinition Height="50"/>
+       <RowDefinition Height="50"/>
+       <RowDefinition Height="50"/>
        </Grid.RowDefinitions>
 
-   <ImageButton Source="setanext.png"
-         Grid.Row="0"/>  
-   <ImageButton Source="setaback.png"
-         Grid.Row="1"/>            
+   <ImageButton Source="next.png"
+         Grid.Row="0"/>      
+   <ImageButton Source="water.png"
+         Grid.Row="1"/>   
+   <ImageButton Source="eat.png"
+         Grid.Row="2"/>  
+   <ImageButton Source="shower.png"
+         Grid.Row="3"/>        
+   <ImageButton Source="back.png"
+         Grid.Row="4"/>            
    </Grid>           
 </Frame>          
    
